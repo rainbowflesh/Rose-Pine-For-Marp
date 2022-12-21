@@ -14,14 +14,30 @@
 ## Usage
 
 1. Get [Marp](https://marp.app/#get-started)
-2. Under markdown, import `rose-pine.theme` by
+2. Under markdown, import `rose-pine.theme`.
 
-    ```markdown
-    ---
-    marp: true
-    theme: rose-pine
-    ---
-    ```
+> Example in vscode, you can add to `setting.json`
+
+```json
+{
+    // etc...
+    "markdown.marp.themes": [
+      "https://raw.githubusercontent.com/rainbowflesh/Marp/master/css/rosepine-dawn.css",
+      "https://raw.githubusercontent.com/rainbowflesh/Marp/master/css/rosepine-moon.css",
+      "https://raw.githubusercontent.com/rainbowflesh/Marp/master/css/rosepine.css",
+    ]
+    // etc...
+}
+```
+
+then:
+
+```markdown
+---
+marp: true
+theme: rose-pine
+---
+```
 
 > See example in `marp-example.md`
 
@@ -55,3 +71,7 @@
 ## Contributing
 
 Modify `css/rose-pine-*.css` then PR ;)
+
+## TODO
+
+TODO: add A4 paper size fork from <https://raw.githubusercontent.com/stanfrbd/A4-marp/main/a4-light.css>

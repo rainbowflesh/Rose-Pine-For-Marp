@@ -34,7 +34,7 @@
 }
 ```
 
-then:
+then add to markdown file:
 
 ```markdown
 ---
@@ -51,23 +51,20 @@ theme: rose-pine
 
 ### Rosé Pine
 
-> Directly view html in `assets\rose-pine.html`
+[Live preview](https://rainbowflesh.github.io/html/rose-pine.html)
+
 ![Rosé Pine](./assets/rose1.png)
-![Rosé Pine](./assets/rose2.png)
-![Rosé Pine](./assets/rose3.png)
 
 ### Rosé Pine Moon
 
-> Directly view html in `assets\rose-pine-moon.html`
-![Rosé Pine](./assets/rm1.png)
+[Live preview](https://rainbowflesh.github.io/html/rose-pine-moon.html)
+
 ![Rosé Pine](./assets/rm2.png)
-![Rosé Pine](./assets/rm3.png)
 
 ### Rosé Pine Dawn
 
-> Directly view html in `assets\rose-pine-dawn.html`
-![Rosé Pine](./assets/rd1.png)
-![Rosé Pine](./assets/rd2.png)
+[Live preview](https://rainbowflesh.github.io/html/rose-pine-dawn.html)
+
 ![Rosé Pine](./assets/rd3.png)
 
 ## Thanks to

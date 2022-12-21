@@ -1,24 +1,9 @@
 ---
 marp: true
 math: mathjax
-# theme: descartes
-# theme: freud
-# theme: hegel
-# theme: heidegger
-# theme: husserl
-# theme: kant
-# theme: leibniz
-# theme: orwell
-# theme: plato
-# theme: schema
-# theme: simple
-# theme: socrates
-# theme: structure
-# theme: gaia_custom
-# theme: gaia_gd
-# theme: a4-dark
-# theme: a4-light
-# theme: atom-one-dark
+theme: rose-pine
+# theme: rose-pine-dawn
+# theme: rose-pine-moon
 ---
 
 <style lang=css>
@@ -34,21 +19,21 @@ palette in :root
 @import "structure";
 
 :root {
-  --base: #faf4ed;
-  --surface: #fffaf3;
-  --overlay: #f2e9e1;
-  --muted: #9893a5;
-  --subtle: #797593;
-  --text: #575279;
-  --love: #b4637a;
-  --gold: #ea9d34;
-  --rose: #d7827e;
-  --pine: #286983;
-  --foam: #56949f;
-  --iris: #907aa9;
-  --highlight-low: #f4ede8;
-  --highlight-muted: #dfdad9;
-  --highlight-high: #cecacd;
+  --base: #232136;
+    --surface: #2a273f;
+    --overlay: #393552;
+    --muted: #6e6a86;
+    --subtle: #908caa;
+    --text: #e0def4;
+    --love: #eb6f92;
+    --gold: #f6c177;
+    --rose: #ea9a97;
+    --pine: #3e8fb0;
+    --foam: #9ccfd8;
+    --iris: #c4a7e7;
+    --highlight-low: #2a283e;
+    --highlight-muted: #44415a;
+    --highlight-high: #56526e;
 
   font-family: Pier Sans, ui-sans-serif, system-ui, -apple-system,
     BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
@@ -83,7 +68,7 @@ a {
   color: var(--iris);
 }
 p {
-  font-size: 26pt;
+  font-size: 20pt;
   font-weight: 600;
   color: var(--text);
 }
@@ -166,9 +151,9 @@ marp-pre {
 
 Start writing!
 <!-- 111 i am comment -->
-
 *I am italic*
-,,, ... """''';;;:::<><>??!~!#@$!^%&%*()"
+
+> I am `note` ,,, ... """''';;;:::<><>??!~!#@$!^%&%*()"
 
 1. ww
 2. 22
@@ -176,46 +161,27 @@ Start writing!
 - $\sqrt{1+x} = {(1+x)}^\frac{1}{2} = 1+\frac{1}{2x}+o{x}$
 **I am blob**
 
-<https://www.aoligei.com>
+<https://marp.app>
 
 ---
 
-## Themes H2 title
+## How to use
+
+Put this to vscode setting
 
 ```json
 {
     // etc...
     "markdown.marp.themes": [
-        "https://cunhapaulo.github.io/style/descartes.css",
-        "https://cunhapaulo.github.io/style/freud.css",
-        "https://cunhapaulo.github.io/style/hegel.css",
-        "https://cunhapaulo.github.io/style/heidegger.css",
-        "https://cunhapaulo.github.io/style/husserl.css",
-        "https://cunhapaulo.github.io/style/kant.css",
-        "https://cunhapaulo.github.io/style/leibniz.css",
-        "https://cunhapaulo.github.io/style/orwell.css",
-        "https://cunhapaulo.github.io/style/plato.css",
-        "https://cunhapaulo.github.io/style/schema.css",
-        "https://cunhapaulo.github.io/style/simple.css",
-        "https://cunhapaulo.github.io/style/socrates.css",
-        "https://cunhapaulo.github.io/style/structure.css",
-        "https://raw.githubusercontent.com/hnsol/marp-custom-theme/main/gaia_custom.css",
-        "https://raw.githubusercontent.com/hnsol/marp-custom-theme/main/gaia_gd.css",
-        "https://raw.githubusercontent.com/stanfrbd/A4-marp/main/a4-dark.css",
-        "https://raw.githubusercontent.com/stanfrbd/A4-marp/main/a4-light.css",
-        "https://raw.githubusercontent.com/stanfrbd/A4-marp/main/atom-one-dark.css"
+      "https://raw.githubusercontent.com/rainbowflesh/Marp/master/css/rosepine-dawn.css",
+      "https://raw.githubusercontent.com/rainbowflesh/Marp/master/css/rosepine-moon.css",
+      "https://raw.githubusercontent.com/rainbowflesh/Marp/master/css/rosepine.css",
     ]
     // etc...
 }
 ```
 
----
-
 ### I am H3 Title
-
-![image](../blog/dist/assets/🤑.28392e69.jpg)
-
----
 
 #### I am H4
 

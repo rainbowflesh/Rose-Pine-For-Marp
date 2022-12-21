@@ -19,27 +19,31 @@
 
 ## Gallery
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+### Rosé Pine
+
+> Directly view html in `assets\rose-pine.html`
+![Rosé Pine](./assets/rose1.png)
+![Rosé Pine](./assets/rose2.png)
+![Rosé Pine](./assets/rose3.png)
+
+### Rosé Pine Moon
+
+> Directly view html in `assets\rose-pine-moon.html`
+![Rosé Pine](./assets/rm1.png)
+![Rosé Pine](./assets/rm2.png)
+![Rosé Pine](./assets/rm3.png)
+
+### Rosé Pine Dawn
+
+> Directly view html in `assets\rose-pine-dawn.html`
+![Rosé Pine](./assets/rd1.png)
+![Rosé Pine](./assets/rd2.png)
+![Rosé Pine](./assets/rd3.png)
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
+- [I, rainbowflesh](https://github.com/rainbowflesh)
 
 ## Contributing
 
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
-
-Modify `template.json` using Rosé Pine variables, then build variants:
-
-```sh
-npx @rose-pine/build@latest
-```
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Format repo description as "Soho vibes for App"
-- Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
+Modify `css/rose-pine-*.css` then PR ;)

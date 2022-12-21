@@ -14,8 +14,16 @@
 ## Usage
 
 1. Get [Marp](https://marp.app/#get-started)
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+2. Under markdown, import `rose-pine.theme` by
+
+    ```markdown
+    ---
+    marp: true
+    theme: rose-pine
+    ---
+    ```
+
+> See example in `marp-example.md`
 
 ## Gallery
 

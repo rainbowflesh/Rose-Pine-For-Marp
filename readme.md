@@ -25,6 +25,10 @@
       "https://raw.githubusercontent.com/rainbowflesh/Marp/master/css/rosepine-dawn.css",
       "https://raw.githubusercontent.com/rainbowflesh/Marp/master/css/rosepine-moon.css",
       "https://raw.githubusercontent.com/rainbowflesh/Marp/master/css/rosepine.css",
+    // if raw.githubusercontent.com not work, try use this
+      "https://rainbowflesh.github.io/css/rose-pine-dawn.css",
+      "https://rainbowflesh.github.io/css/rose-pine-moon.css",
+      "https://rainbowflesh.github.io/css/rose-pine.css",
     ]
     // etc...
 }

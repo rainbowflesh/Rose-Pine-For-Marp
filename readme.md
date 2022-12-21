@@ -36,6 +36,8 @@ then:
 ---
 marp: true
 theme: rose-pine
+# theme: rose-pine-dawn
+# theme: rose-pine-moon
 ---
 ```
 

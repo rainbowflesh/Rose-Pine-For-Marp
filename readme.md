@@ -69,7 +69,9 @@ theme: rose-pine
 
 ## Thanks to
 
-- [I, rainbowflesh](https://github.com/rainbowflesh)
+- [I, rainbowflesh](https://github.com/rainbowflesh) and Rosé Pine the most beautiful color palette I have ever seen.
+
+###### I love rosepine soooooo much😍😍😍😍😍😍😍
 
 ## Contributing
 
